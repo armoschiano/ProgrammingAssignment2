@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## This function creates a special "matrix" object and returns a list 
 ## of four functions to handle this object
 
@@ -17,6 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
          setMatrix = setMatrix,
          getMatrix = getMatrix)
 }
+
 
 
 ## The following function calculates the inverse of the special "matrix" object 
